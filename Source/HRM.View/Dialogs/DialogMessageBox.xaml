@@ -1,0 +1,43 @@
+﻿<local:BaseDialogUserControl x:Class="HRM.View.DialogMessageBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:HRM.View"
+             xmlns:core="clr-namespace:HRM.Model;assembly=HRM.Model"
+             mc:Ignorable="d">
+    <StackPanel d:DataContext="{x:Static local:MessageBoxDialogDesignModel.Instance}"
+                Background="{StaticResource ForegroundLightBrush}"
+                >
+        <TextBlock Text="{Binding Message}"
+                   Padding="5"
+                   Foreground="{StaticResource ForegroundVeryDarkBrush}"
+                   />
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="{Binding NoText}"
+                    IsDefault="True"
+                    IsCancel="True"
+                    FontSize="{StaticResource FontSizeRegular}"
+                    Background="{StaticResource WordRedBrush}"
+                    local:IsBusyProperty.Value="{Binding IsNoCommandRunning}"
+                    Command="{Binding NoCommand}"
+                    CommandParameter="{Binding NoCommandParameter}"
+                    HorizontalAlignment="Center"
+                    Margin="15 10"
+                    Visibility="{Binding HaveNoButton, Converter={local:BooleanToVisiblityGoneConverter}}"
+                    />
+            <Button Content="{Binding YesText}"
+                    IsDefault="True"
+                    IsCancel="True"
+                    FontSize="{StaticResource FontSizeRegular}"
+                    local:IsBusyProperty.Value="{Binding IsYesCommandRunning}"
+                    Command="{Binding YesCommand}"
+                    CommandParameter="{Binding YesCommandParameter}"
+                    HorizontalAlignment="Center"
+                    Margin="15 10"
+                    />
+        </StackPanel>
+        
+    </StackPanel>
+</local:BaseDialogUserControl>

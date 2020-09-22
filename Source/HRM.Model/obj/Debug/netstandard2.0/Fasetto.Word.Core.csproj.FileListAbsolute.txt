@@ -1,0 +1,10 @@
+D:\Projects\fasetto-word\Source\Fasetto.Word.Core\bin\Debug\netstandard2.0\Fasetto.Word.Core.deps.json
+D:\Projects\fasetto-word\Source\Fasetto.Word.Core\bin\Debug\netstandard2.0\Fasetto.Word.Core.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word.Core\bin\Debug\netstandard2.0\Fasetto.Word.Core.pdb
+D:\Projects\fasetto-word\Source\Fasetto.Word.Core\obj\Debug\netstandard2.0\Fasetto.Word.Core.csprojAssemblyReference.cache
+D:\Projects\fasetto-word\Source\Fasetto.Word.Core\obj\Debug\netstandard2.0\Fasetto.Word.Core.csproj.CoreCompileInputs.cache
+D:\Projects\fasetto-word\Source\Fasetto.Word.Core\obj\Debug\netstandard2.0\Fasetto.Word.Core.AssemblyInfoInputs.cache
+D:\Projects\fasetto-word\Source\Fasetto.Word.Core\obj\Debug\netstandard2.0\Fasetto.Word.Core.AssemblyInfo.cs
+D:\Projects\fasetto-word\Source\Fasetto.Word.Core\obj\Debug\netstandard2.0\Fasetto.Word.Core.csproj.Fody.CopyLocal.cache
+D:\Projects\fasetto-word\Source\Fasetto.Word.Core\obj\Debug\netstandard2.0\Fasetto.Word.Core.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word.Core\obj\Debug\netstandard2.0\Fasetto.Word.Core.pdb

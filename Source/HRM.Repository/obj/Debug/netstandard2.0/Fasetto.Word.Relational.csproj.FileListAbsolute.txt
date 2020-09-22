@@ -1,0 +1,12 @@
+D:\Projects\fasetto-word\Source\Fasetto.Word.Relational\bin\Debug\netstandard2.0\Fasetto.Word.Relational.deps.json
+D:\Projects\fasetto-word\Source\Fasetto.Word.Relational\bin\Debug\netstandard2.0\Fasetto.Word.Relational.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word.Relational\bin\Debug\netstandard2.0\Fasetto.Word.Relational.pdb
+D:\Projects\fasetto-word\Source\Fasetto.Word.Relational\bin\Debug\netstandard2.0\Fasetto.Word.Core.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word.Relational\bin\Debug\netstandard2.0\Fasetto.Word.Core.pdb
+D:\Projects\fasetto-word\Source\Fasetto.Word.Relational\obj\Debug\netstandard2.0\Fasetto.Word.Relational.csprojAssemblyReference.cache
+D:\Projects\fasetto-word\Source\Fasetto.Word.Relational\obj\Debug\netstandard2.0\Fasetto.Word.Relational.csproj.CoreCompileInputs.cache
+D:\Projects\fasetto-word\Source\Fasetto.Word.Relational\obj\Debug\netstandard2.0\Fasetto.Word.Relational.AssemblyInfoInputs.cache
+D:\Projects\fasetto-word\Source\Fasetto.Word.Relational\obj\Debug\netstandard2.0\Fasetto.Word.Relational.AssemblyInfo.cs
+D:\Projects\fasetto-word\Source\Fasetto.Word.Relational\obj\Debug\netstandard2.0\Fasetto.Word.Relational.csproj.CopyComplete
+D:\Projects\fasetto-word\Source\Fasetto.Word.Relational\obj\Debug\netstandard2.0\Fasetto.Word.Relational.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word.Relational\obj\Debug\netstandard2.0\Fasetto.Word.Relational.pdb

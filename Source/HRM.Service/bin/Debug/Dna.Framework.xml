@@ -1,0 +1,1079 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dna.Framework</name>
+    </assembly>
+    <members>
+        <member name="T:Dna.ArrayExtensions">
+            <summary>
+            Extension methods for arrays
+            </summary>
+        </member>
+        <member name="M:Dna.ArrayExtensions.Append``1(``0[],``0[])">
+            <summary>
+            Append the given objects to the original source array
+            </summary>
+            <typeparam name="T">The type of array</typeparam>
+            <param name="source">The original array of values</param>
+            <param name="toAdd">The values to append to the source</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dna.ArrayExtensions.Prepend``1(``0[],``0[])">
+            <summary>
+            Prepend the given objects to the original source array
+            </summary>
+            <typeparam name="T">The type of array</typeparam>
+            <param name="source">The original array of values</param>
+            <param name="toAdd">The values to prepend to the source</param>
+            <returns></returns>
+        </member>
+        <member name="T:Dna.AsyncLock">
+            <summary>
+            <para>
+                Adds the ability to do the same as lock(...) { } but for async Tasks and awaits
+            </para>
+            <para>
+                This lock uses the safer semaphore to prevent any chance of a deadlock
+            </para>
+            </summary>
+            <example>
+            <code>
+                await AsyncLock.LockAsync("myKey", () => DoSomething());
+            </code>
+            </example>
+        </member>
+        <member name="F:Dna.AsyncLock.SelfLock">
+            <summary>
+            A semaphore to lock the semaphore list
+            </summary>
+        </member>
+        <member name="F:Dna.AsyncLock.Semaphores">
+            <summary>
+            A list of all semaphore locks (one per key)
+            </summary>
+        </member>
+        <member name="M:Dna.AsyncLock.LockResultAsync``1(System.String,System.Func{System.Threading.Tasks.Task{``0}},System.Int32)">
+            <summary>
+            Awaits for any outstanding tasks to complete that are accessing the same key then runs the given task, returning it's value
+            </summary>
+            <param name="key">The key to await</param>
+            <param name="task">The task to perform inside of the semaphore lock</param>
+            <param name="maxAccessCount">If this is the first call, sets the maximum number of tasks that can access this task before it waiting</param>
+            <returns>Returns the result of the task</returns>
+        </member>
+        <member name="M:Dna.AsyncLock.LockAsync(System.String,System.Func{System.Threading.Tasks.Task},System.Int32)">
+            <summary>
+            Awaits for any outstanding tasks to complete that are accessing the same key then runs the given task
+            </summary>
+            <param name="key">The key to await</param>
+            <param name="task">The task to perform inside of the semaphore lock</param>
+            <param name="maxAccessCount">If this is the first call, sets the maximum number of tasks that can access this task before it waiting</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dna.AsyncLock.LockAsync(System.String,System.Action,System.Int32)">
+            <summary>
+            Awaits for any outstanding tasks to complete that are accessing the same key then runs the given action
+            </summary>
+            <param name="key">The key to await</param>
+            <param name="task">The task to perform inside of the semaphore lock</param>
+            <param name="maxAccessCount">If this is the first call, sets the maximum number of tasks that can access this task before it waiting</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dna.AsyncLock.LockResultAsync``1(System.String,System.Func{``0},System.Int32)">
+            <summary>
+            Awaits for any outstanding tasks to complete that are accessing the same key then runs the given task, returning it's value
+            </summary>
+            <param name="key">The key to await</param>
+            <param name="task">The task to perform inside of the semaphore lock</param>
+            <param name="maxAccessCount">If this is the first call, sets the maximum number of tasks that can access this task before it waiting</param>
+            <returns>Returns the result of the task</returns>
+        </member>
+        <member name="T:Dna.SemaphoreDetails">
+            <summary>
+            Contains information about a semaphore lock
+            </summary>
+        </member>
+        <member name="P:Dna.SemaphoreDetails.Semaphore">
+            <summary>
+            The semaphore for this item
+            </summary>
+        </member>
+        <member name="P:Dna.SemaphoreDetails.Key">
+            <summary>
+            The unique key for this semaphore lock
+            </summary>
+        </member>
+        <member name="M:Dna.SemaphoreDetails.#ctor(System.String,System.Int32)">
+            <summary>
+            Default constructor
+            </summary>
+            <param name="key">The unique key for this semaphore</param>
+            <param name="maxAccessCount">The maximum number of access counts to this semaphore before waiting</param>
+        </member>
+        <member name="T:Dna.WaitHandleExtensions">
+            <summary>
+            Extension methods for <see cref="T:System.Threading.WaitHandle"/> objects
+            </summary>
+        </member>
+        <member name="M:Dna.WaitHandleExtensions.WaitOneAsync(System.Threading.WaitHandle,System.Int32,System.Nullable{System.Threading.CancellationToken})">
+            <summary>
+            Allows awaiting a <see cref="T:System.Threading.WaitHandle"/>
+            </summary>
+            <param name="handle">The handle to await</param>
+            <param name="millisecondsTimeout">The timeout period to return false if timed out</param>
+            <param name="cancellationToken">The cancellation token to use to throw a <see cref="T:System.Threading.Tasks.TaskCanceledException"/> if this token gets canceled</param>
+            <returns>Returns true if the handle is free, false if it is not</returns>
+            <exception cref="T:System.Threading.Tasks.TaskCanceledException">Throws if the cancellation token is canceled</exception>
+        </member>
+        <member name="M:Dna.WaitHandleExtensions.WaitOneAsync(System.Threading.WaitHandle,System.TimeSpan,System.Nullable{System.Threading.CancellationToken})">
+            <summary>
+            Allows awaiting a <see cref="T:System.Threading.WaitHandle"/>
+            </summary>
+            <param name="handle">The handle to await</param>
+            <param name="timeout">The timeout period to return false if timed out</param>
+            <param name="cancellationToken">The cancellation token to use to throw a <see cref="T:System.Threading.Tasks.TaskCanceledException"/> if this token gets canceled</param>
+            <returns>Returns true if the handle is free, false if it is not</returns>
+            <exception cref="T:System.Threading.Tasks.TaskCanceledException">Throws if the cancellation token is canceled</exception>
+        </member>
+        <member name="M:Dna.WaitHandleExtensions.WaitOneAsync(System.Threading.WaitHandle,System.Nullable{System.Threading.CancellationToken})">
+            <summary>
+            Allows awaiting a <see cref="T:System.Threading.WaitHandle"/>
+            </summary>
+            <param name="handle">The handle to await</param>
+            <param name="cancellationToken">The cancellation token to use to throw a <see cref="T:System.Threading.Tasks.TaskCanceledException"/> if this token gets canceled</param>
+            <returns>Returns true if the handle is free, or waits infinitely until it is free or the cancellation token is canceled</returns>
+            <exception cref="T:System.Threading.Tasks.TaskCanceledException">Throws if the cancellation token is canceled</exception>
+        </member>
+        <member name="T:Dna.ContentItem">
+            <summary>
+            Details about an item that can be used to pass around the Dna Framework providing basic trackable details
+            on a file that exists on a system
+            </summary>
+        </member>
+        <member name="P:Dna.ContentItem.Id">
+            <summary>
+            The uniquely identifiable key that identifies this item from all others 
+            </summary>
+        </member>
+        <member name="P:Dna.ContentItem.LocalPath">
+            <summary>
+            <para>
+                The local path to the file useful for general viewing or details about where the file is.
+            </para>
+            <para>
+                This may be a virtual path on systems like iOS and Android, and full file paths on desktop systems.
+            </para>
+            </summary>
+        </member>
+        <member name="T:Dna.DefaultFrameworkEnvironment">
+            <summary>
+            Default implementation about the current framework environment
+            </summary>
+        </member>
+        <member name="P:Dna.DefaultFrameworkEnvironment.IsDevelopment">
+            <summary>
+            True if we are in a development (specifically, debuggable) environment
+            </summary>
+        </member>
+        <member name="P:Dna.DefaultFrameworkEnvironment.Configuration">
+            <summary>
+            The configuration of the environment, either Development or Production
+            </summary>
+        </member>
+        <member name="P:Dna.DefaultFrameworkEnvironment.IsMobile">
+            <summary>
+            Determines (crudely) if we are a mobile (Xamarin) platform.
+            This is a temporary, fragile check until it is officially supported 
+            https://github.com/dotnet/corefx/issues/27417
+            </summary>
+        </member>
+        <member name="M:Dna.DefaultFrameworkEnvironment.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="T:Dna.IFrameworkEnvironment">
+            <summary>
+            Details about the current framework environment
+            </summary>
+        </member>
+        <member name="P:Dna.IFrameworkEnvironment.Configuration">
+            <summary>
+            The configuration of the environment, typically Development or Production
+            </summary>
+        </member>
+        <member name="P:Dna.IFrameworkEnvironment.IsDevelopment">
+            <summary>
+            True if we are in a development (specifically, debuggable) environment
+            </summary>
+        </member>
+        <member name="P:Dna.IFrameworkEnvironment.IsMobile">
+            <summary>
+            Indicates if we are a mobile platform
+            </summary>
+        </member>
+        <member name="T:Dna.BaseExceptionHandler">
+            <summary>
+            Handles all exceptions, simply logging them to the logger
+            </summary>
+        </member>
+        <member name="M:Dna.BaseExceptionHandler.HandleError(System.Exception)">
+            <summary>
+            Logs the given exception
+            </summary>
+            <param name="exception">The exception</param>
+        </member>
+        <member name="T:Dna.IExceptionHandler">
+            <summary>
+            Handles exceptions when they are caught and passed to the exception handler
+            </summary>
+        </member>
+        <member name="M:Dna.IExceptionHandler.HandleError(System.Exception)">
+            <summary>
+            Handles the given exception
+            </summary>
+            <param name="exception">The exception to handle</param>
+        </member>
+        <member name="T:Dna.DefaultFrameworkConstruction">
+            <summary>
+            Creates a default framework construction containing all 
+            the default configuration and services
+            </summary>
+            <example>
+            
+            <para>
+                This is an example setup code for building a Dna Framework Construction
+            </para>
+            
+            <code>
+            
+                // Build the framework adding any required services
+                Framework.Construct&lt;DefaultFrameworkConstruction&gt;()
+                        .AddFileLogger()
+                        .Build();
+                        
+            </code>
+            
+            </example>
+        </member>
+        <member name="M:Dna.DefaultFrameworkConstruction.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:Dna.DefaultFrameworkConstruction.#ctor(System.Action{Microsoft.Extensions.Configuration.IConfigurationBuilder})">
+            <summary>
+            Constructor with configuration options
+            </summary>
+        </member>
+        <member name="T:Dna.FrameworkConstruction">
+            <summary>
+            The construction information when starting up and configuring Dna.Framework
+            </summary>
+        </member>
+        <member name="F:Dna.FrameworkConstruction.mServices">
+            <summary>
+            The services that will get used and compiled once the framework is built
+            </summary>
+        </member>
+        <member name="P:Dna.FrameworkConstruction.Provider">
+            <summary>
+            The dependency injection service provider
+            </summary>
+        </member>
+        <member name="P:Dna.FrameworkConstruction.Services">
+            <summary>
+            The services that will get used and compiled once the framework is built
+            </summary>
+        </member>
+        <member name="P:Dna.FrameworkConstruction.Environment">
+            <summary>
+            The environment used for the Dna.Framework
+            </summary>
+        </member>
+        <member name="P:Dna.FrameworkConstruction.Configuration">
+            <summary>
+            The configuration used for the Dna.Framework
+            </summary>
+        </member>
+        <member name="M:Dna.FrameworkConstruction.#ctor(System.Boolean)">
+            <summary>
+            Default constructor
+            </summary>
+            <param name="createServiceCollection">If true, a new <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceCollection"/> will be created for the Services</param>
+        </member>
+        <member name="M:Dna.FrameworkConstruction.Build(System.IServiceProvider)">
+            <summary>
+            Builds the service collection into a service provider
+            </summary>
+        </member>
+        <member name="M:Dna.FrameworkConstruction.UseHostedServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Uses the given service collection in the framework. 
+            Typically used in an ASP.Net Core environment where
+            the ASP.Net server has its own collection.
+            </summary>
+            <param name="services">The services to use</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dna.FrameworkConstruction.UseConfiguration(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Uses the given configuration in the framework
+            </summary>
+            <param name="configuration">The configuration to use</param>
+            <returns></returns>
+        </member>
+        <member name="T:Dna.HostedFrameworkConstruction">
+             <summary>
+             Creates a default framework construction containing all 
+             the default configuration and services, when used inside
+             a project that has it's own service provider such as an
+             ASP.Net Core website
+             </summary>
+             <example>
+             
+             <para>
+                 This is an example setup code for building a Dna Framework Construction
+                 if you include the Dna.Framework.AspNet NuGet package
+             </para>
+             
+             <code>
+             
+                 //  Program.cs (in BuildWebHost)
+                 // ------------------------------
+                         
+                     return WebHost.CreateDefaultBuilder()
+                         // Merge Dna Framework into ASP.Net Core environment
+                         .UseDnaFramework(construct =>
+                         {
+                             // Add file logger
+                             construct.AddFileLogger();
+                  
+                             //
+                             // NOTE: If you want to configure anything in ConfigurationBuilder just use 
+                             //       ConfigureAppConfiguration(builder => {}) and then you  have
+                             //       access to Dna.Framework.Environment and Construction at that point
+                             //       like the normal flow of Dna Framework setup
+                             //
+                  
+                             // The last step is inside Startup Configure method to call 
+                         })
+                         .UseStartup&lt;Startup&gt;()
+                         .Build();
+            
+                 //  Startup.cs (in Configure)
+                 // ---------------------------
+                 
+                     // Use Dna Framework
+                     app.UseDnaFramework();
+             
+             </code>
+             
+             </example>
+        </member>
+        <member name="M:Dna.HostedFrameworkConstruction.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="T:Dna.FrameworkDI">
+            <summary>
+            The core services that could be available in the Dna Framework
+            for quick and easy access anywhere in code.
+            </summary>
+            <example>
+            <code>
+                using static Dna.FrameworkDI
+                
+                Logger.Log(Configuration["something"]);
+            </code>
+            </example>
+        </member>
+        <member name="P:Dna.FrameworkDI.Configuration">
+            <summary>
+            Gets the configuration
+            </summary>
+        </member>
+        <member name="P:Dna.FrameworkDI.Logger">
+            <summary>
+            Gets the default logger
+            </summary>
+        </member>
+        <member name="P:Dna.FrameworkDI.LoggerFactory">
+            <summary>
+            Gets the logger factory for creating loggers
+            </summary>
+        </member>
+        <member name="P:Dna.FrameworkDI.FrameworkEnvironment">
+            <summary>
+            Gets the framework environment
+            </summary>
+        </member>
+        <member name="P:Dna.FrameworkDI.ExceptionHandler">
+            <summary>
+            Gets the framework exception handler
+            </summary>
+        </member>
+        <member name="T:Dna.Framework">
+            <summary>
+            The main entry point into the Dna Framework library
+            </summary>
+            <remarks>
+            <para>
+                To use Dna.Framework you need to create a new <see cref="T:Dna.FrameworkConstruction"/>
+                such as <see cref="T:Dna.DefaultFrameworkConstruction"/> and then add your services
+                then finally <see cref="M:Dna.Framework.Build(Dna.FrameworkConstruction,System.Boolean)"/>. For example:
+            </para>
+            <code>
+            
+                // Create the default framework and build it
+                Framework.Construct&lt;DefaultFrameworkConstruction&gt;().Build();
+                
+            </code>
+            </remarks>
+        </member>
+        <member name="P:Dna.Framework.Construction">
+            <summary>
+            The framework construction used in this application.
+            NOTE: This should be set by the consuming application at the very start of the program
+            </summary>
+            <example>
+            <code>
+                Framework.Construct&lt;DefaultFrameworkConstruction&gt;();
+            </code>
+            </example>
+        </member>
+        <member name="P:Dna.Framework.Provider">
+            <summary>
+            The dependency injection service provider
+            </summary>
+        </member>
+        <member name="M:Dna.Framework.Build(Dna.FrameworkConstruction,System.Boolean)">
+            <summary>
+            Should be called once a Framework Construction is finished and we want to build it and
+            start our application
+            </summary>
+            <param name="construction">The construction</param>
+            <param name="logStarted">Specifies if the Dna Framework Started message should be logged</param>
+        </member>
+        <member name="M:Dna.Framework.Build(System.IServiceProvider,System.Boolean)">
+            <summary>
+            Should be called once a Framework Construction is finished and we want to build it and
+            start our application in a hosted environment where the service provider is already built
+            such as ASP.Net Core applications
+            </summary>
+            <param name="provider">The provider</param>
+            <param name="logStarted">Specifies if the Dna Framework Started message should be logged</param>
+        </member>
+        <member name="M:Dna.Framework.Construct``1">
+            <summary>
+            The initial call to setting up and using the Dna Framework
+            </summary>
+            <typeparam name="T">The type of construction to use</typeparam>
+        </member>
+        <member name="M:Dna.Framework.Construct``1(``0)">
+            <summary>
+            The initial call to setting up and using the Dna Framework.
+            </summary>
+            <typeparam name="T">The type of construction to use</typeparam>
+            <param name="constructionInstance">The instance of the construction to use</param>
+        </member>
+        <member name="M:Dna.Framework.Service``1">
+            <summary>
+            Shortcut to Framework.Provider.GetService to get an injected service of type <typeparamref name="T"/>
+            </summary>
+            <typeparam name="T">The type of service to get</typeparam>
+            <returns></returns>
+        </member>
+        <member name="T:Dna.FrameworkExtensions">
+            <summary>
+            Extension methods for the Dna Framework
+            </summary>
+        </member>
+        <member name="M:Dna.FrameworkExtensions.AddDefaultConfiguration(Dna.FrameworkConstruction,System.Action{Microsoft.Extensions.Configuration.IConfigurationBuilder})">
+            <summary>
+            Configures a framework construction in the default way
+            </summary>
+            <param name="construction">The construction to configure</param>
+            <param name="configure">The custom configuration action</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dna.FrameworkExtensions.AddConfiguration(Dna.FrameworkConstruction,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Configures a framework construction using the provided configuration
+            </summary>
+            <param name="construction">The construction to configure</param>
+            <param name="configure">The configuration</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dna.FrameworkExtensions.AddDefaultServices(Dna.FrameworkConstruction)">
+            <summary>
+            Injects all of the default services used by Dna Framework for a quicker and cleaner setup
+            </summary>
+            <param name="construction">The construction</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dna.FrameworkExtensions.AddDefaultLogger(Dna.FrameworkConstruction)">
+            <summary>
+            Injects the default logger into the framework construction
+            </summary>
+            <param name="construction">The construction</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dna.FrameworkExtensions.AddDefaultExceptionHandler(Dna.FrameworkConstruction)">
+            <summary>
+            Injects the default exception handler into the framework construction
+            </summary>
+            <param name="construction">The construction</param>
+            <returns></returns>
+        </member>
+        <member name="T:Dna.ServiceCollectionExtensions">
+            <summary>
+            Extension methods for the <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection"/>
+            </summary>
+        </member>
+        <member name="M:Dna.ServiceCollectionExtensions.AddDnaFramework(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Used in a hosted environment when using an existing set of services and configuration, such as 
+            in an ASP.Net Core environment
+            </summary>
+            <param name="services">The services to use</param>
+            <returns></returns>
+        </member>
+        <member name="T:Dna.FileLogger">
+            <summary>
+            A logger that writes the logs to file
+            </summary>
+        </member>
+        <member name="F:Dna.FileLogger.FileLocks">
+            <summary>
+            A list of file locks based on path
+            </summary>
+        </member>
+        <member name="F:Dna.FileLogger.FileLockLock">
+            <summary>
+            The lock to lock the list of locks
+            </summary>
+        </member>
+        <member name="F:Dna.FileLogger.mCategoryName">
+            <summary>
+            The category for this logger
+            </summary>
+        </member>
+        <member name="F:Dna.FileLogger.mFilePath">
+            <summary>
+            The file path to write to
+            </summary>
+        </member>
+        <member name="F:Dna.FileLogger.mDirectory">
+            <summary>
+            The directory the file is in
+            </summary>
+        </member>
+        <member name="F:Dna.FileLogger.mConfiguration">
+            <summary>
+            The configuration to use
+            </summary>
+        </member>
+        <member name="M:Dna.FileLogger.#ctor(System.String,System.String,Dna.FileLoggerConfiguration)">
+            <summary>
+            Default constructor
+            </summary>
+            <param name="categoryName">The category for this logger</param>
+            <param name="filePath">The file path to write to</param>
+            <param name="configuration">The configuration to use</param>
+        </member>
+        <member name="M:Dna.FileLogger.BeginScope``1(``0)">
+            <summary>
+            File loggers are not scoped so this is always null
+            </summary>
+            <typeparam name="TState"></typeparam>
+            <param name="state"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dna.FileLogger.IsEnabled(Microsoft.Extensions.Logging.LogLevel)">
+            <summary>
+            Enabled if the log level is the same or greater than the configuration
+            </summary>
+            <param name="logLevel">The log level to check against</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dna.FileLogger.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})">
+            <summary>
+            Logs the message to file
+            </summary>
+            <typeparam name="TState">The type of the details of the message</typeparam>
+            <param name="logLevel">The log level</param>
+            <param name="eventId">The Id</param>
+            <param name="state">The details of the message</param>
+            <param name="exception">Any exception to log</param>
+            <param name="formatter">The formatter for converting the state and exception to a message string</param>
+        </member>
+        <member name="T:Dna.FileLoggerConfiguration">
+            <summary>
+            The configuration for a <see cref="T:Dna.FileLogger"/>
+            </summary>
+        </member>
+        <member name="P:Dna.FileLoggerConfiguration.LogLevel">
+            <summary>
+            The level of log that should be processed
+            </summary>
+        </member>
+        <member name="P:Dna.FileLoggerConfiguration.LogTime">
+            <summary>
+            Whether to log the time as part of the message
+            </summary>
+        </member>
+        <member name="P:Dna.FileLoggerConfiguration.LogAtTop">
+            <summary>
+            Whether to display latest logs at the top of the file
+            </summary>
+        </member>
+        <member name="P:Dna.FileLoggerConfiguration.OutputLogLevel">
+            <summary>
+            Indicates if the log level should be output as part of the log message
+            </summary>
+        </member>
+        <member name="T:Dna.FileLoggerExtensions">
+            <summary>
+            Extension methods for the <see cref="T:Dna.FileLogger"/>
+            </summary>
+        </member>
+        <member name="M:Dna.FileLoggerExtensions.AddFile(Microsoft.Extensions.Logging.ILoggingBuilder,System.String,Dna.FileLoggerConfiguration)">
+            <summary>
+            Adds a new file logger to the specific path
+            </summary>
+            <param name="builder">The log builder to add to</param>
+            <param name="path">The path where to write to</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dna.FileLoggerExtensions.AddFileLogger(Dna.FrameworkConstruction,System.String,System.Boolean)">
+            <summary>
+            Injects a file logger into the framework construction
+            </summary>
+            <param name="construction">The construction</param>
+            <param name="logPath">The path of the file to log to</param>
+            <param name="logTop">Whether to display latest logs at the top of the file</param>
+            <returns></returns>
+        </member>
+        <member name="T:Dna.FileLoggerProvider">
+            <summary>
+            Provides the ability to log to file
+            </summary>
+        </member>
+        <member name="F:Dna.FileLoggerProvider.mFilePath">
+            <summary>
+            The path to log to
+            </summary>
+        </member>
+        <member name="F:Dna.FileLoggerProvider.mConfiguration">
+            <summary>
+            The configuration to use when creating loggers
+            </summary>
+        </member>
+        <member name="F:Dna.FileLoggerProvider.mLoggers">
+            <summary>
+            Keeps track of the loggers already created
+            </summary>
+        </member>
+        <member name="M:Dna.FileLoggerProvider.#ctor(System.String,Dna.FileLoggerConfiguration)">
+            <summary>
+            Default constructor
+            </summary>
+            <param name="path">The path to log to</param>
+            <param name="configuration">The configuration to use</param>
+        </member>
+        <member name="M:Dna.FileLoggerProvider.CreateLogger(System.String)">
+            <summary>
+            Creates a file logger based on the category name
+            </summary>
+            <param name="categoryName">The category name of this logger</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dna.FileLoggerProvider.Dispose">
+            <summary>
+            Dispose
+            </summary>
+        </member>
+        <member name="T:Dna.LoggerExtensions">
+            <summary>
+            Extensions for <see cref="T:Microsoft.Extensions.Logging.ILogger"/> loggers
+            </summary>
+        </member>
+        <member name="M:Dna.LoggerExtensions.LogCriticalSource(Microsoft.Extensions.Logging.ILogger,System.String,Microsoft.Extensions.Logging.EventId,System.Exception,System.String,System.String,System.Int32,System.Object[])">
+            <summary>
+            Logs a critical message, including the source of the log
+            </summary>
+            <param name="logger">The logger</param>
+            <param name="message">The message</param>
+            <param name="origin">The callers member/function name</param>
+            <param name="filePath">The source code file path</param>
+            <param name="lineNumber">The line number in the code file of the caller</param>
+            <param name="args">The additional arguments</param>
+        </member>
+        <member name="M:Dna.LoggerExtensions.LogTraceSource(Microsoft.Extensions.Logging.ILogger,System.String,Microsoft.Extensions.Logging.EventId,System.Exception,System.String,System.String,System.Int32,System.Object[])">
+            <summary>
+            Logs a verbose trace message, including the source of the log
+            </summary>
+            <param name="logger">The logger</param>
+            <param name="message">The message</param>
+            <param name="origin">The callers member/function name</param>
+            <param name="filePath">The source code file path</param>
+            <param name="lineNumber">The line number in the code file of the caller</param>
+            <param name="args">The additional arguments</param>
+        </member>
+        <member name="M:Dna.LoggerExtensions.LogDebugSource(Microsoft.Extensions.Logging.ILogger,System.String,Microsoft.Extensions.Logging.EventId,System.Exception,System.String,System.String,System.Int32,System.Object[])">
+            <summary>
+            Logs a debug message, including the source of the log
+            </summary>
+            <param name="logger">The logger</param>
+            <param name="message">The message</param>
+            <param name="origin">The callers member/function name</param>
+            <param name="filePath">The source code file path</param>
+            <param name="lineNumber">The line number in the code file of the caller</param>
+            <param name="args">The additional arguments</param>
+        </member>
+        <member name="M:Dna.LoggerExtensions.LogErrorSource(Microsoft.Extensions.Logging.ILogger,System.String,Microsoft.Extensions.Logging.EventId,System.Exception,System.String,System.String,System.Int32,System.Object[])">
+            <summary>
+            Logs an error message, including the source of the log
+            </summary>
+            <param name="logger">The logger</param>
+            <param name="message">The message</param>
+            <param name="origin">The callers member/function name</param>
+            <param name="filePath">The source code file path</param>
+            <param name="lineNumber">The line number in the code file of the caller</param>
+            <param name="args">The additional arguments</param>
+        </member>
+        <member name="M:Dna.LoggerExtensions.LogInformationSource(Microsoft.Extensions.Logging.ILogger,System.String,Microsoft.Extensions.Logging.EventId,System.Exception,System.String,System.String,System.Int32,System.Object[])">
+            <summary>
+            Logs an informative message, including the source of the log
+            </summary>
+            <param name="logger">The logger</param>
+            <param name="message">The message</param>
+            <param name="origin">The callers member/function name</param>
+            <param name="filePath">The source code file path</param>
+            <param name="lineNumber">The line number in the code file of the caller</param>
+            <param name="args">The additional arguments</param>
+        </member>
+        <member name="M:Dna.LoggerExtensions.LogWarningSource(Microsoft.Extensions.Logging.ILogger,System.String,Microsoft.Extensions.Logging.EventId,System.Exception,System.String,System.String,System.Int32,System.Object[])">
+            <summary>
+            Logs a warning message, including the source of the log
+            </summary>
+            <param name="logger">The logger</param>
+            <param name="message">The message</param>
+            <param name="origin">The callers member/function name</param>
+            <param name="filePath">The source code file path</param>
+            <param name="lineNumber">The line number in the code file of the caller</param>
+            <param name="args">The additional arguments</param>
+        </member>
+        <member name="T:Dna.LoggerSourceFormatter">
+            <summary>
+            Formats a message when the callers source information is provided first in the arguments
+            </summary>
+        </member>
+        <member name="M:Dna.LoggerSourceFormatter.Format(System.Object[],System.Exception)">
+            <summary>
+            Formats the message including the source information pulled out of the state
+            </summary>
+            <param name="state">The state information about the log</param>
+            <param name="exception">The exception</param>
+            <returns></returns>
+        </member>
+        <member name="T:Dna.ReflectionExtensions">
+            <summary>
+            Extension methods for reflection methods
+            </summary>
+        </member>
+        <member name="M:Dna.ReflectionExtensions.FileLocation(System.Type)">
+            <summary>
+            Gets the physical file location of the assembly where this type is stored
+            </summary>
+            <param name="type">The type</param>
+            <returns>Returns the file location of the assembly in which this type is stored</returns>
+        </member>
+        <member name="M:Dna.ReflectionExtensions.FolderLocation(System.Type)">
+            <summary>
+            Gets the physical folder location of the assembly where this type is stored
+            </summary>
+            <param name="type">The type</param>
+            <returns>Returns the folder location of the assembly file in which this type is stored</returns>
+        </member>
+        <member name="T:Dna.StringExtensions">
+            <summary>
+            Extension methods for strings
+            </summary>
+        </member>
+        <member name="M:Dna.StringExtensions.IsNullOrEmpty(System.String)">
+            <summary>
+            Returns true if the string is null or an empty string
+            </summary>
+            <param name="content">The string</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dna.StringExtensions.IsNullOWhiteSpace(System.String)">
+            <summary>
+            Returns true if the string is null or an empty string or just whitespace
+            </summary>
+            <param name="content">The string</param>
+            <returns></returns>
+        </member>
+        <member name="T:Dna.SingleTaskWorker">
+            <summary>
+            <para>
+                Provides a thread-safe mechanism for starting and stopping the execution of an task
+                that can only have one instance of itself running regardless of the amount of times
+                start/stop is called and from what thread.
+            </para>
+            <para>
+                Supports cancellation requests via the <see cref="M:Dna.SingleTaskWorker.StopAsync"/> and the given task
+                will be provided with a cancellation token to monitor for when it should "stop"
+            </para>
+            </summary>
+        </member>
+        <member name="F:Dna.SingleTaskWorker.mWorkerFinishedEvent">
+            <summary>
+            A flag indicating if the worker task is still running
+            </summary>
+        </member>
+        <member name="F:Dna.SingleTaskWorker.mCancellationToken">
+            <summary>
+            The token used to cancel any ongoing work in order to shutdown
+            </summary>
+        </member>
+        <member name="P:Dna.SingleTaskWorker.LockingKey">
+            <summary>
+            A unique ID for locking the starting and stopping calls of this class
+            </summary>
+        </member>
+        <member name="P:Dna.SingleTaskWorker.WorkerName">
+            <summary>
+            The name that identifies this worker (used in unhandled exception logs to report source of an issue)
+            </summary>
+        </member>
+        <member name="P:Dna.SingleTaskWorker.Stopping">
+            <summary>
+            Indicates if the service is shutting down and should finish what it's doing and save any important information/progress
+            </summary>
+        </member>
+        <member name="P:Dna.SingleTaskWorker.IsRunning">
+            <summary>
+            Indicates if the main worker task is running
+            </summary>
+        </member>
+        <member name="M:Dna.SingleTaskWorker.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:Dna.SingleTaskWorker.StartAsync">
+            <summary>
+            Starts the given task running if it is not already running
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Dna.SingleTaskWorker.StopAsync">
+            <summary>
+            Requests that the given task should stop running, and awaits for it to finish
+            </summary>
+            <returns>Returns once the worker task has returned</returns>
+        </member>
+        <member name="M:Dna.SingleTaskWorker.RunWorkerTaskNoAwait">
+            <summary>
+            Runs the worker task and sets the IsRunning to false once complete
+            </summary>
+            <returns>Returns once the worker task has completed</returns>
+        </member>
+        <member name="M:Dna.SingleTaskWorker.WorkerTaskAsync(System.Threading.CancellationToken)">
+            <summary>
+            The task that will be run by this worker
+            </summary>
+        </member>
+        <member name="T:Dna.KnownContentSerializers">
+            <summary>
+            Known types of content that can be serialized and sent to a receiver
+            </summary>
+        </member>
+        <member name="F:Dna.KnownContentSerializers.Json">
+            <summary>
+            The data should be serialized to JSON
+            </summary>
+        </member>
+        <member name="F:Dna.KnownContentSerializers.Xml">
+            <summary>
+            The data should be serialized to XML
+            </summary>
+        </member>
+        <member name="T:Dna.KnownContentSerializersExtensions">
+            <summary>
+            Extension methods for <see cref="T:Dna.KnownContentSerializers"/>
+            </summary>
+        </member>
+        <member name="M:Dna.KnownContentSerializersExtensions.ToMimeString(Dna.KnownContentSerializers)">
+            <summary>
+            Takes a known serializer type and returns the Mime type associated with it
+            </summary>
+            <param name="serializer">The serializer</param>
+            <returns></returns>
+        </member>
+        <member name="T:Dna.HttpEndpointChecker">
+            <summary>
+            Continually hits up a web HTTP/HTTPS endpoint checking for a valid response.
+            Good use for checking the connectivity of a website constantly
+            </summary>
+        </member>
+        <member name="F:Dna.HttpEndpointChecker.mDisposing">
+            <summary>
+            Flag indicating if this class is disposing
+            </summary>
+        </member>
+        <member name="F:Dna.HttpEndpointChecker.mStateChangedCallback">
+            <summary>
+            The callback that is called when the connectivity state changes
+            </summary>
+        </member>
+        <member name="F:Dna.HttpEndpointChecker.mFirstCallMade">
+            <summary>
+            Indicates if there has been a call to the endpoint yet or if this is the first call
+            </summary>
+        </member>
+        <member name="P:Dna.HttpEndpointChecker.Endpoint">
+            <summary>
+            The endpoint being checked
+            </summary>
+        </member>
+        <member name="P:Dna.HttpEndpointChecker.Responsive">
+            <summary>
+            Indicates if the endpoint is responsive (at the last interval returned a valid response)
+            </summary>
+        </member>
+        <member name="M:Dna.HttpEndpointChecker.#ctor(System.String,System.Int32,System.Action{System.Boolean},System.Func{System.Net.HttpWebResponse,System.Exception,System.Boolean},Microsoft.Extensions.Logging.ILogger)">
+            <summary>
+            Default constructor
+            </summary>
+            <param name="endpoint">The endpoint to do a GET call on</param>
+            <param name="interval">The time between periodical checks, in milliseconds</param>
+            <param name="stateChangedCallback">Fired when the state changes of the endpoint</param>
+            <param name="validResponseParser">If specified, handles whether the given response from the endpoint is classed as successful or not</param>
+            <param name="logger">The logger to use for logging messages</param>
+        </member>
+        <member name="M:Dna.HttpEndpointChecker.Dispose">
+            <summary>
+            Disposes the task that runs the periodic connectivity check
+            </summary>
+        </member>
+        <member name="T:Dna.HttpWebResponseExtensions">
+            <summary>
+            Extension methods for <see cref="T:System.Net.HttpWebResponse"/>
+            </summary>
+        </member>
+        <member name="M:Dna.HttpWebResponseExtensions.CreateWebRequestResult``1(System.Net.HttpWebResponse)">
+            <summary>
+            Returns a <see cref="T:Dna.WebRequestResult`1"/> pre-populated with the <see cref="T:System.Net.HttpWebResponse"/> information
+            </summary>
+            <typeparam name="TResponse">The type of response to create</typeparam>
+            <param name="serverResponse">The server response</param>
+            <returns></returns>
+        </member>
+        <member name="T:Dna.WebRequestResult">
+            <summary>
+            A web response from a call to get generic object data from a HTTP server
+            </summary>
+        </member>
+        <member name="P:Dna.WebRequestResult.Successful">
+            <summary>
+            If the call was successful
+            </summary>
+        </member>
+        <member name="P:Dna.WebRequestResult.ErrorMessage">
+            <summary>
+            If something failed, this is the error message
+            </summary>
+        </member>
+        <member name="P:Dna.WebRequestResult.StatusCode">
+            <summary>
+            The status code
+            </summary>
+        </member>
+        <member name="P:Dna.WebRequestResult.StatusDescription">
+            <summary>
+            The status description
+            </summary>
+        </member>
+        <member name="P:Dna.WebRequestResult.ContentType">
+            <summary>
+            The type of content returned by the server
+            </summary>
+        </member>
+        <member name="P:Dna.WebRequestResult.Headers">
+            <summary>
+            All the response headers
+            </summary>
+        </member>
+        <member name="P:Dna.WebRequestResult.Cookies">
+            <summary>
+            Any cookies sent in the response
+            </summary>
+        </member>
+        <member name="P:Dna.WebRequestResult.RawServerResponse">
+            <summary>
+            The raw server response body
+            </summary>
+        </member>
+        <member name="P:Dna.WebRequestResult.ServerResponse">
+            <summary>
+            The actual server response as an object
+            </summary>
+        </member>
+        <member name="T:Dna.WebRequestResult`1">
+            <summary>
+            A web response from a call to get specific data from a HTTP server
+            </summary>
+            <typeparam name="T">The type of data to deserialize the raw body into</typeparam>
+        </member>
+        <member name="P:Dna.WebRequestResult`1.ServerResponse">
+            <summary>
+            Casts the underlying object to the specified type
+            </summary>
+        </member>
+        <member name="T:Dna.WebRequests">
+            <summary>
+            Provides HTTP calls for sending and receiving information from a HTTP server
+            </summary>
+        </member>
+        <member name="M:Dna.WebRequests.GetAsync(System.String,System.Action{System.Net.HttpWebRequest},System.String)">
+            <summary>
+            GETs a web request to an URL and returns the raw http web response
+            </summary>
+            <remarks>IMPORTANT: Remember to close the returned <see cref="T:System.Net.HttpWebResponse"/> stream once done</remarks>
+            <param name="url">The URL</param>
+            <param name="configureRequest">Allows caller to customize and configure the request prior to the request being sent</param>
+            <param name="bearerToken">If specified, provides the Authorization header with `bearer token-here` for things like JWT bearer tokens</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dna.WebRequests.PostAsync(System.String,System.Object,Dna.KnownContentSerializers,Dna.KnownContentSerializers,System.Action{System.Net.HttpWebRequest},System.String)">
+            <summary>
+            POSTs a web request to an URL and returns the raw http web response
+            </summary>
+            <remarks>IMPORTANT: Remember to close the returned <see cref="T:System.Net.HttpWebResponse"/> stream once done</remarks>
+            <param name="url">The URL</param>
+            <param name="content">The content to post</param>
+            <param name="sendType">The format to serialize the content into</param>
+            <param name="returnType">The expected type of content to be returned from the server</param>
+            <param name="configureRequest">Allows caller to customize and configure the request prior to the content being written and sent</param>
+            <param name="bearerToken">If specified, provides the Authorization header with `bearer token-here` for things like JWT bearer tokens</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dna.WebRequests.PostAsync``1(System.String,System.Object,Dna.KnownContentSerializers,Dna.KnownContentSerializers,System.Action{System.Net.HttpWebRequest},System.String)">
+            <summary>
+            POSTs a web request to an URL and returns a response of the expected data type
+            </summary>
+            <param name="url">The URL</param>
+            <param name="content">The content to post</param>
+            <param name="sendType">The format to serialize the content into</param>
+            <param name="returnType">The expected type of content to be returned from the server</param>
+            <param name="configureRequest">Allows caller to customize and configure the request prior to the content being written and sent</param>
+            <param name="bearerToken">If specified, provides the Authorization header with `bearer token-here` for things like JWT bearer tokens</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

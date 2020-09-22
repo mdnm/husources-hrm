@@ -1,0 +1,20 @@
+﻿HRM.View
+
+
+winexe
+C#
+.cs
+D:\Projects\Projeto Integrado - HRM\husources-hrm\Source\HRM.View\obj\Debug\
+HRM.View
+none
+false
+DEBUG;TRACE
+D:\Projects\Projeto Integrado - HRM\husources-hrm\Source\HRM.View\App.xaml
+24332689125
+2-1218055715
+1032103221468
+841674905965
+Controls\BubbleContent.xaml;Controls\Employee\Salary\SalaryControl.xaml;Controls\Employee\EmployeeList\EmployeeListControl.xaml;Controls\Employee\EmployeeList\EmployeeListItemControl.xaml;Controls\Employee\Salary\SalaryItemControl.xaml;Controls\Input\PasswordEntryControl.xaml;Controls\Input\TextEntryControl.xaml;Controls\Menu\VerticalMenu.xaml;Controls\NewEmployeeControl.xaml;Controls\PageHost.xaml;Controls\SettingsControl.xaml;Controls\SideMenuControl.xaml;Dialogs\DialogMessageBox.xaml;DialogWindow.xaml;Pages\EmployeePage.xaml;Pages\NullPage.xaml;Pages\RegisterPage.xaml;Pages\LoginPage.xaml;MainWindow.xaml;Styles\Scroll.xaml;Styles\Texts.xaml;Styles\Buttons.xaml;Styles\Colors.xaml;Styles\Fonts.xaml;
+
+True
+

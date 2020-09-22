@@ -1,0 +1,67 @@
+﻿<UserControl x:Class="HRM.View.SettingsControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:HRM.View"
+             xmlns:core="clr-namespace:HRM.Model;assembly=HRM.Model"
+             d:DataContext="{x:Static local:SettingsDesignModel.Instance}"
+             mc:Ignorable="d" >
+    <Border Background="{StaticResource ForegroundLightBrush}" 
+            Padding="15">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <!-- Settings Title -->
+            <Grid Height="40" Margin="0 0 0 20">
+                <!-- Back button -->
+                <Button Style="{StaticResource IconGrowButton}"
+                    Height="40"
+                    Content="{StaticResource FontAwesomeArrowLeftIcon}"
+                    FontFamily="{StaticResource FontAwesome}"
+                    Foreground="{StaticResource ForegroundDarkBrush}"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Center"
+                    Command="{Binding CloseCommand}"/>
+
+                <!-- Header -->
+                <TextBlock FontSize="{StaticResource FontSizeLarge}"
+                       Foreground="{StaticResource ForegroundVeryDarkBrush}"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center">
+                    
+                <!-- Icon -->
+                <Run FontFamily="{StaticResource FontAwesome}"
+                     Text="{StaticResource FontAwesomeUserIcon}"
+                     Foreground="{StaticResource WordBlueBrush}" />
+                    
+                <!-- Text -->
+                <Run Text="Perfil"
+                     FontFamily="{StaticResource CircularStdBook}" />
+                </TextBlock>
+            </Grid>
+
+            <!-- Main Content -->
+            <Grid Grid.Row="1"
+                  Width="400"
+                  VerticalAlignment="Top">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Profile details -->
+                <StackPanel Grid.Column="1"
+                            local:TextEntryWidthMatcherProperty.Value="True">
+                    <local:TextEntryControl DataContext="{Binding Username}" />
+                    <local:PasswordEntryControl DataContext="{Binding Password}" />
+                    <Button Content="{Binding LogoutButtonText}"
+                            Command="{Binding LogoutCommand}"
+                            FontSize="{StaticResource FontSizeRegular}"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </Border>
+</UserControl>

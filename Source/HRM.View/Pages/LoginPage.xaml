@@ -1,0 +1,80 @@
+﻿<local:BasePage x:TypeArguments="local:LoginViewModel" x:Class="HRM.View.LoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:HRM.View"
+      xmlns:core="clr-namespace:HRM.Model;assembly=HRM.Model"
+      mc:Ignorable="d" 
+      x:Name="Page"
+      d:DesignHeight="700" d:DesignWidth="700"
+      >
+
+    <Border>
+        <Grid>
+
+            <!-- Main content scroll -->
+            <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+                <StackPanel 
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    TextBlock.TextAlignment="Center">
+
+                    <!-- Login main content white box -->
+                    <Border Background="{StaticResource ForegroundLightBrush}" 
+                            CornerRadius="10"
+                            Padding="15 30 15 15"
+                            Width="360"
+                            Margin="50 0 50 0">
+
+                        <StackPanel>
+
+                            <!-- Sign In header -->
+                            <TextBlock Text="Login" 
+                                   FontSize="{StaticResource FontSizeXXLarge}" 
+                                   FontFamily="{StaticResource CircularStdBook}"
+                                   Foreground="{StaticResource WordBlueBrush}" 
+                                   Margin="0 0 0 50"/>
+
+                            <!-- Email -->
+                            <TextBox Style="{StaticResource Input}" Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"
+                                     Tag="Usuário"
+                                     local:IsFocusedProperty.Value="True"
+                                     />
+
+                            <!-- Password -->
+                            <PasswordBox Style="{StaticResource PasswordInput}" 
+                                         x:Name="PasswordText" 
+                                         Tag="Senha"/>
+
+                            <!-- Login button -->
+                            <Button Content="Entrar" 
+                                    IsDefault="True"
+                                    local:IsBusyProperty.Value="{Binding LoginIsRunning}"
+                                    Command="{Binding LoginCommand}"
+                                    CommandParameter="{Binding ElementName=Page}" 
+                                    Margin="0 30 0 0"
+                                    HorizontalAlignment="Center" />
+
+                            <StackPanel 
+                                Orientation="Horizontal"
+                                VerticalAlignment="Center"
+                                HorizontalAlignment="Center"
+                                TextBlock.TextAlignment="Center"
+                                Margin="0 15 0 5">
+                                <TextBlock Style="{StaticResource DarkText}" FontSize="{StaticResource FontSizeRegular}">
+                                    Não possui uma conta?
+                                </TextBlock>
+                                <Button Style="{StaticResource LinkButton}" 
+                                    FontSize="{StaticResource FontSizeRegular}"
+                                    Command="{Binding RegisterCommand}"
+                                    Content="Cadastre-se!" />
+                            </StackPanel>
+
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </Border>
+</local:BasePage>

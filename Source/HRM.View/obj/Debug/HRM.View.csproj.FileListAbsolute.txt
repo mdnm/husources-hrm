@@ -1,0 +1,366 @@
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\x86\e_sqlite3.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\x64\e_sqlite3.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\appsettings.json
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Fasetto.Word.exe.config
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Fasetto.Word.exe
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Fasetto.Word.pdb
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Dna.Framework.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.Data.Sqlite.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.Extensions.Configuration.Json.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.Extensions.DependencyModel.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.Extensions.Logging.Configuration.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.Extensions.Logging.Console.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.Extensions.Logging.Debug.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\Remotion.Linq.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\SQLitePCLRaw.batteries_green.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\SQLitePCLRaw.core.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\System.Buffers.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\System.Collections.Immutable.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\System.Interactive.Async.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\System.Memory.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\System.Numerics.Vectors.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\HRM.Model.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\HRM.Repository.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\HRM.Model.pdb
+D:\Projects\fasetto-word\Source\Fasetto.Word\bin\Debug\HRM.Repository.pdb
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\HRM.View.csprojAssemblyReference.cache
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Fasetto.Word.exe.config
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Controls\BubbleContent.g.cs
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Controls\Chat\ChatMessage\ChatMessageListControl.g.cs
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Controls\Chat\ChatList\ChatListControl.g.cs
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Controls\Chat\ChatList\ChatListItemControl.g.cs
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Controls\Chat\ChatMessage\ChatMessageListItemControl.g.cs
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Controls\Input\PasswordEntryControl.g.cs
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Controls\Input\TextEntryControl.g.cs
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Controls\Menu\VerticalMenu.g.cs
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Controls\PageHost.g.cs
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Controls\SettingsControl.g.cs
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Controls\SideMenuControl.g.cs
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Dialogs\DialogMessageBox.g.cs
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\DialogWindow.g.cs
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Pages\ChatPage.g.cs
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Pages\RegisterPage.g.cs
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Pages\LoginPage.g.cs
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\MainWindow.g.cs
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\App.g.cs
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Fasetto.Word_Content.g.cs
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Fasetto.Word_MarkupCompile.cache
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Fasetto.Word_MarkupCompile.lref
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\App.baml
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Controls\BubbleContent.baml
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Controls\Chat\ChatMessage\ChatMessageListControl.baml
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Controls\Chat\ChatList\ChatListControl.baml
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Controls\Chat\ChatList\ChatListItemControl.baml
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Controls\Chat\ChatMessage\ChatMessageListItemControl.baml
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Controls\Input\PasswordEntryControl.baml
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Controls\Input\TextEntryControl.baml
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Controls\Menu\VerticalMenu.baml
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Controls\PageHost.baml
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Controls\SettingsControl.baml
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Controls\SideMenuControl.baml
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Dialogs\DialogMessageBox.baml
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\DialogWindow.baml
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Pages\ChatPage.baml
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Pages\RegisterPage.baml
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Pages\LoginPage.baml
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\MainWindow.baml
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Styles\Scroll.baml
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Styles\Texts.baml
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Styles\Buttons.baml
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Styles\Colors.baml
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Styles\Fonts.baml
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Fasetto.Word.g.resources
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Fasetto.Word.Properties.Resources.resources
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\HRM.View.csproj.GenerateResource.cache
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\HRM.View.csproj.CoreCompileInputs.cache
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\HRM.View.csproj.Fody.CopyLocal.cache
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\HRM.View.csproj.CopyComplete
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Fasetto.Word.exe
+D:\Projects\fasetto-word\Source\Fasetto.Word\obj\Debug\Fasetto.Word.pdb
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\x86\e_sqlite3.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\x64\e_sqlite3.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\appsettings.json
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\HRM.View.exe.config
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\HRM.View.exe
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\HRM.View.pdb
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Dapper.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Dna.Framework.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\LocalStorage.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.Data.Sqlite.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.Extensions.Configuration.Json.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.Extensions.DependencyModel.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.Extensions.Logging.Configuration.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.Extensions.Logging.Console.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.Extensions.Logging.Debug.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Npgsql.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Npgsql.pdb
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\Remotion.Linq.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\SQLitePCLRaw.batteries_green.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\SQLitePCLRaw.core.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\System.Buffers.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\System.Collections.Immutable.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\System.Interactive.Async.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\System.Memory.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\System.Numerics.Vectors.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\System.Security.AccessControl.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\System.Security.Permissions.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\System.Security.Principal.Windows.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\System.Text.Encodings.Web.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\System.Text.Json.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\System.ValueTuple.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\HRM.Infra.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\HRM.Model.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\HRM.Repository.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\HRM.Service.dll
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\HRM.Infra.pdb
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\HRM.Infra.dll.config
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\HRM.Model.pdb
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\HRM.Repository.pdb
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\HRM.Service.pdb
+D:\Projects\fasetto-word\Source\HRM.View\bin\Debug\HRM.Service.dll.config
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\HRM.View.csprojAssemblyReference.cache
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\HRM.View.exe.config
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Controls\BubbleContent.g.cs
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Controls\Employee\Extras\ExtrasListControl.g.cs
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Controls\Employee\EmployeeList\EmployeeListControl.g.cs
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Controls\Employee\EmployeeList\EmployeeListItemControl.g.cs
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Controls\Employee\Extras\ExtrasListItemControl.g.cs
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Controls\Input\PasswordEntryControl.g.cs
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Controls\Input\TextEntryControl.g.cs
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Controls\Menu\VerticalMenu.g.cs
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Controls\PageHost.g.cs
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Controls\SettingsControl.g.cs
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Controls\SideMenuControl.g.cs
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Dialogs\DialogMessageBox.g.cs
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\DialogWindow.g.cs
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Pages\EmployeePage.g.cs
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Pages\RegisterPage.g.cs
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Pages\LoginPage.g.cs
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\MainWindow.g.cs
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\App.g.cs
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\HRM.View_Content.g.cs
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\HRM.View_MarkupCompile.cache
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\HRM.View_MarkupCompile.lref
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\App.baml
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Controls\BubbleContent.baml
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Controls\Employee\Extras\ExtrasListControl.baml
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Controls\Employee\EmployeeList\EmployeeListControl.baml
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Controls\Employee\EmployeeList\EmployeeListItemControl.baml
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Controls\Employee\Extras\ExtrasListItemControl.baml
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Controls\Input\PasswordEntryControl.baml
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Controls\Input\TextEntryControl.baml
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Controls\Menu\VerticalMenu.baml
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Controls\PageHost.baml
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Controls\SettingsControl.baml
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Controls\SideMenuControl.baml
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Dialogs\DialogMessageBox.baml
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\DialogWindow.baml
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Pages\EmployeePage.baml
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Pages\RegisterPage.baml
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Pages\LoginPage.baml
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\MainWindow.baml
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Styles\Scroll.baml
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Styles\Texts.baml
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Styles\Buttons.baml
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Styles\Colors.baml
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\Styles\Fonts.baml
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\HRM.View.g.resources
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\HRM.View.Properties.Resources.resources
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\HRM.View.csproj.GenerateResource.cache
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\HRM.View.csproj.CoreCompileInputs.cache
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\HRM.View.csproj.Fody.CopyLocal.cache
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\HRM.View.csproj.CopyComplete
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\HRM.View.exe
+D:\Projects\fasetto-word\Source\HRM.View\obj\Debug\HRM.View.pdb
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\HRM.View.csprojAssemblyReference.cache
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\HRM.View.exe.config
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Controls\BubbleContent.g.cs
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Controls\Employee\Salary\SalaryControl.g.cs
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Controls\Employee\EmployeeList\EmployeeListControl.g.cs
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Controls\Employee\EmployeeList\EmployeeListItemControl.g.cs
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Controls\Employee\Salary\SalaryItemControl.g.cs
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Controls\Input\PasswordEntryControl.g.cs
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Controls\Input\TextEntryControl.g.cs
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Controls\Menu\VerticalMenu.g.cs
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Controls\PageHost.g.cs
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Controls\SettingsControl.g.cs
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Controls\SideMenuControl.g.cs
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Dialogs\DialogMessageBox.g.cs
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\DialogWindow.g.cs
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Pages\EmployeePage.g.cs
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Pages\NullPage.g.cs
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Pages\RegisterPage.g.cs
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Pages\LoginPage.g.cs
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\MainWindow.g.cs
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\App.g.cs
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\HRM.View_Content.g.cs
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\HRM.View_MarkupCompile.cache
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\HRM.View_MarkupCompile.lref
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\x86\e_sqlite3.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\x64\e_sqlite3.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\appsettings.json
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\HRM.View.exe.config
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\HRM.View.exe
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\HRM.View.pdb
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Dapper.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Dna.Framework.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\LocalStorage.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.Data.Sqlite.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.Extensions.Configuration.Json.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.Extensions.DependencyModel.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.Extensions.Logging.Configuration.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.Extensions.Logging.Console.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.Extensions.Logging.Debug.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Npgsql.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Npgsql.pdb
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\Remotion.Linq.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\SQLitePCLRaw.batteries_green.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\SQLitePCLRaw.core.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\System.Buffers.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\System.Collections.Immutable.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\System.Interactive.Async.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\System.Memory.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\System.Numerics.Vectors.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\System.Security.AccessControl.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\System.Security.Permissions.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\System.Security.Principal.Windows.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\System.Text.Encodings.Web.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\System.Text.Json.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\System.ValueTuple.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\HRM.Infra.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\HRM.Model.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\HRM.Repository.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\HRM.Service.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\HRM.Infra.pdb
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\HRM.Infra.dll.config
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\HRM.Model.pdb
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\HRM.Repository.pdb
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\HRM.Service.pdb
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\bin\Debug\HRM.Service.dll.config
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\App.baml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Controls\BubbleContent.baml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Controls\Employee\Salary\SalaryControl.baml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Controls\Employee\EmployeeList\EmployeeListControl.baml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Controls\Employee\EmployeeList\EmployeeListItemControl.baml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Controls\Employee\Salary\SalaryItemControl.baml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Controls\Input\PasswordEntryControl.baml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Controls\Input\TextEntryControl.baml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Controls\Menu\VerticalMenu.baml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Controls\PageHost.baml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Controls\SettingsControl.baml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Controls\SideMenuControl.baml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Dialogs\DialogMessageBox.baml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\DialogWindow.baml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Pages\EmployeePage.baml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Pages\NullPage.baml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Pages\RegisterPage.baml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Pages\LoginPage.baml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\MainWindow.baml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Styles\Scroll.baml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Styles\Texts.baml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Styles\Buttons.baml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Styles\Colors.baml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Styles\Fonts.baml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\HRM.View.g.resources
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\HRM.View.Properties.Resources.resources
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\HRM.View.csproj.GenerateResource.cache
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\HRM.View.csproj.CoreCompileInputs.cache
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\HRM.View.csproj.Fody.CopyLocal.cache
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\HRM.View.csproj.CopyComplete
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\HRM.View.exe
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\HRM.View.pdb
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Controls\NewEmployeeControl.g.cs
+D:\Projects\Projeto Integrado - HRM\Source\HRM.View\obj\Debug\Controls\NewEmployeeControl.baml

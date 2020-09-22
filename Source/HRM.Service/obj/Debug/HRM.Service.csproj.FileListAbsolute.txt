@@ -1,0 +1,115 @@
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\HRM.Service.dll.config
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\HRM.Service.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\HRM.Service.pdb
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\HRM.Model.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\HRM.Repository.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Infra.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Logging.Console.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\System.Buffers.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\System.Memory.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\System.Text.Json.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\System.ValueTuple.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Npgsql.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Dapper.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Infra.pdb
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Infra.dll.config
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\HRM.Model.pdb
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\HRM.Repository.pdb
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Configuration.EnvironmentVariables.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Configuration.Json.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.FileProviders.Physical.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Logging.Configuration.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Logging.Console.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Logging.Debug.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Options.ConfigurationExtensions.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\System.Buffers.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\System.Memory.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\System.Text.Json.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\System.ValueTuple.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Npgsql.pdb
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Npgsql.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\bin\Debug\Dapper.xml
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\obj\Debug\HRM.Service.csprojAssemblyReference.cache
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\obj\Debug\HRM.Service.csproj.CoreCompileInputs.cache
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\obj\Debug\HRM.Service.csproj.CopyComplete
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\obj\Debug\HRM.Service.dll
+C:\Users\mateu\Documents\Classes\PROJETO INTEGRADO A\Service\obj\Debug\HRM.Service.pdb
+D:\Projects\fasetto-word\Source\HRM.Service\bin\Debug\HRM.Service.dll.config
+D:\Projects\fasetto-word\Source\HRM.Service\bin\Debug\HRM.Service.dll
+D:\Projects\fasetto-word\Source\HRM.Service\bin\Debug\HRM.Service.pdb
+D:\Projects\fasetto-word\Source\HRM.Service\bin\Debug\HRM.Infra.dll
+D:\Projects\fasetto-word\Source\HRM.Service\bin\Debug\HRM.Model.dll
+D:\Projects\fasetto-word\Source\HRM.Service\bin\Debug\HRM.Repository.dll
+D:\Projects\fasetto-word\Source\HRM.Service\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projects\fasetto-word\Source\HRM.Service\bin\Debug\System.Buffers.dll
+D:\Projects\fasetto-word\Source\HRM.Service\bin\Debug\System.Memory.dll
+D:\Projects\fasetto-word\Source\HRM.Service\bin\Debug\HRM.Infra.pdb
+D:\Projects\fasetto-word\Source\HRM.Service\bin\Debug\HRM.Infra.dll.config
+D:\Projects\fasetto-word\Source\HRM.Service\bin\Debug\HRM.Model.pdb
+D:\Projects\fasetto-word\Source\HRM.Service\bin\Debug\HRM.Repository.pdb
+D:\Projects\fasetto-word\Source\HRM.Service\obj\Debug\HRM.Service.csprojAssemblyReference.cache
+D:\Projects\fasetto-word\Source\HRM.Service\obj\Debug\HRM.Service.csproj.CoreCompileInputs.cache
+D:\Projects\fasetto-word\Source\HRM.Service\obj\Debug\HRM.Service.csproj.CopyComplete
+D:\Projects\fasetto-word\Source\HRM.Service\obj\Debug\HRM.Service.dll
+D:\Projects\fasetto-word\Source\HRM.Service\obj\Debug\HRM.Service.pdb
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Service\bin\Debug\HRM.Service.dll.config
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Service\bin\Debug\HRM.Service.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Service\bin\Debug\HRM.Service.pdb
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Service\bin\Debug\HRM.Infra.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Service\bin\Debug\HRM.Model.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Service\bin\Debug\HRM.Repository.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Service\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Service\bin\Debug\System.Buffers.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Service\bin\Debug\System.Memory.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Service\bin\Debug\HRM.Infra.pdb
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Service\bin\Debug\HRM.Infra.dll.config
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Service\bin\Debug\HRM.Model.pdb
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Service\bin\Debug\HRM.Repository.pdb
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Service\obj\Debug\HRM.Service.csprojAssemblyReference.cache
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Service\obj\Debug\HRM.Service.csproj.CoreCompileInputs.cache
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Service\obj\Debug\HRM.Service.csproj.CopyComplete
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Service\obj\Debug\HRM.Service.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Service\obj\Debug\HRM.Service.pdb

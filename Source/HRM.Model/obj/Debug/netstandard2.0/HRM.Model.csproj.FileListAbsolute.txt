@@ -1,0 +1,54 @@
+D:\Projects\fasetto-word\Source\Fasetto.Word.Core\bin\Debug\netstandard2.0\HRM.Model.deps.json
+D:\Projects\fasetto-word\Source\Fasetto.Word.Core\bin\Debug\netstandard2.0\HRM.Model.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word.Core\bin\Debug\netstandard2.0\HRM.Model.pdb
+D:\Projects\fasetto-word\Source\Fasetto.Word.Core\obj\Debug\netstandard2.0\HRM.Model.csproj.CoreCompileInputs.cache
+D:\Projects\fasetto-word\Source\Fasetto.Word.Core\obj\Debug\netstandard2.0\HRM.Model.AssemblyInfoInputs.cache
+D:\Projects\fasetto-word\Source\Fasetto.Word.Core\obj\Debug\netstandard2.0\HRM.Model.AssemblyInfo.cs
+D:\Projects\fasetto-word\Source\Fasetto.Word.Core\obj\Debug\netstandard2.0\HRM.Model.csproj.Fody.CopyLocal.cache
+D:\Projects\fasetto-word\Source\Fasetto.Word.Core\obj\Debug\netstandard2.0\HRM.Model.dll
+D:\Projects\fasetto-word\Source\Fasetto.Word.Core\obj\Debug\netstandard2.0\HRM.Model.pdb
+D:\Projects\fasetto-word\Source\HRM.Model\bin\Debug\netstandard2.0\HRM.Model.deps.json
+D:\Projects\fasetto-word\Source\HRM.Model\bin\Debug\netstandard2.0\HRM.Model.dll
+D:\Projects\fasetto-word\Source\HRM.Model\bin\Debug\netstandard2.0\HRM.Model.pdb
+D:\Projects\fasetto-word\Source\HRM.Model\obj\Debug\netstandard2.0\HRM.Model.AssemblyInfoInputs.cache
+D:\Projects\fasetto-word\Source\HRM.Model\obj\Debug\netstandard2.0\HRM.Model.AssemblyInfo.cs
+D:\Projects\fasetto-word\Source\HRM.Model\obj\Debug\netstandard2.0\HRM.Model.csproj.CoreCompileInputs.cache
+D:\Projects\fasetto-word\Source\HRM.Model\obj\Debug\netstandard2.0\HRM.Model.csproj.Fody.CopyLocal.cache
+D:\Projects\fasetto-word\Source\HRM.Model\obj\Debug\netstandard2.0\HRM.Model.dll
+D:\Projects\fasetto-word\Source\HRM.Model\obj\Debug\netstandard2.0\HRM.Model.pdb
+D:\Projects\fasetto-word\Source\HRM.Model\obj\Debug\netstandard2.0\HRM.Model.csprojAssemblyReference.cache
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\bin\Debug\netstandard2.0\HRM.Model.deps.json
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\bin\Debug\netstandard2.0\HRM.Model.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\bin\Debug\netstandard2.0\HRM.Model.pdb
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\bin\Debug\netstandard2.0\PresentationCore.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\bin\Debug\netstandard2.0\WindowsBase.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\bin\Debug\netstandard2.0\System.Xaml.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\bin\Debug\netstandard2.0\UIAutomationTypes.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\bin\Debug\netstandard2.0\System.Configuration.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\bin\Debug\netstandard2.0\System.Windows.Input.Manipulations.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\bin\Debug\netstandard2.0\UIAutomationProvider.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\bin\Debug\netstandard2.0\System.Deployment.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\bin\Debug\netstandard2.0\Accessibility.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\bin\Debug\netstandard2.0\System.Security.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\bin\Debug\netstandard2.0\System.Windows.Forms.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\bin\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\bin\Debug\netstandard2.0\PresentationCore.xml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\bin\Debug\netstandard2.0\WindowsBase.xml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\bin\Debug\netstandard2.0\System.Xaml.xml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\bin\Debug\netstandard2.0\UIAutomationTypes.xml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\bin\Debug\netstandard2.0\System.Configuration.xml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\bin\Debug\netstandard2.0\System.Windows.Input.Manipulations.xml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\bin\Debug\netstandard2.0\UIAutomationProvider.xml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\bin\Debug\netstandard2.0\System.Deployment.xml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\bin\Debug\netstandard2.0\Accessibility.xml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\bin\Debug\netstandard2.0\System.Security.xml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\bin\Debug\netstandard2.0\System.Windows.Forms.xml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\bin\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.xml
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\obj\Debug\netstandard2.0\HRM.Model.AssemblyInfoInputs.cache
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\obj\Debug\netstandard2.0\HRM.Model.AssemblyInfo.cs
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\obj\Debug\netstandard2.0\HRM.Model.csproj.CoreCompileInputs.cache
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\obj\Debug\netstandard2.0\HRM.Model.csproj.Fody.CopyLocal.cache
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\obj\Debug\netstandard2.0\HRM.Model.csproj.CopyComplete
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\obj\Debug\netstandard2.0\HRM.Model.dll
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\obj\Debug\netstandard2.0\HRM.Model.pdb
+D:\Projects\Projeto Integrado - HRM\Source\HRM.Model\obj\Debug\netstandard2.0\HRM.Model.csprojAssemblyReference.cache
